@@ -13,7 +13,7 @@ const PORT = process.env.PORT; // Get the port number from environment variables
 // Middlewares
 app.use(express.json()); // Parse JSON request bodies
 app.use(cors({
-    origin: ["http://localhost:5000", "https://budget-app.onrender.com"]
+    origin: ["http://localhost:5000", "https://budget-app-dwyo.onrender.com"]
 })); // Enable Cross-Origin Resource Sharing (CORS)
 
 // Load routes dynamically from the 'routes' directory
