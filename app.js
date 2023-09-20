@@ -8,7 +8,7 @@ const app = express(); // Create an Express application
 
 require('dotenv').config(); // Load environment variables from a .env file
 
-const PORT = process.env.PORT; // Get the port number from environment variables
+const PORT = process.env.PORT || 5000; // Get the port number from environment variables
 
 // Middlewares
 app.use(express.json()); // Parse JSON request bodies
